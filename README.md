@@ -1,0 +1,4 @@
+This is a github repository for the Term Project of Course CSCI 5409-Advance Topics in Cloud Computing. 
+The Project name is ExpenseTracker and as the name suggests, it allows users to track their expense with a simple and easy-to-use UI. The project is built using multiple AWS Services such as a Lambda functions, DynamoDB, S3, SNS, EventBridge Scheduler, Textract, API Gateway. 
+All of this resources can be easily provisioned in your AWS Account by running the cloudFormation.yaml file in your cloudFormation stack ( Do not forget to change the name of S3 bucket as that should be unique in the entire world. Also chaneg the required field such as AWS Role Arn and EC2 Instance Image Id). 
+Once All the resources are ready to use, you can create the docket image of the frontend and host the docker container of the same on the EC2 Instance. 
