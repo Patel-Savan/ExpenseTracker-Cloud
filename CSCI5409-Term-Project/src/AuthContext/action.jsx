@@ -1,0 +1,5 @@
+export const REGISTER = "REGISTER"
+export const LOGIN = "LOGIN"
+export const LOGOUT = "LOGOUT"
+export const GET_RESET_PASSWORD_CODE = "GET RESET PASSWORD CODE"
+export const CHANGE_PASSWORD = "CHANGE PASSWORD"
